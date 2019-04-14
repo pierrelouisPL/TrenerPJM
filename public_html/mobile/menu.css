@@ -1,0 +1,192 @@
+
+
+/*@media (min-aspect-ratio: 1/1) {*/
+
+
+
+    #formBox {
+        /* display: flex; */
+        margin-left: auto;
+        margin-right: auto;
+        /*max-width: 40%;*/
+
+        background-color: darkgrey;
+        box-shadow: 5px 5px 10px grey;
+    }
+
+    /* jakiś problem z tym boxem */
+    #titleBox {
+        padding-top: 10px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 50%;
+    }
+
+    #title {
+
+        font-size: 36px;
+        font-family: 'Basic', sans-serif;
+        color: white;
+
+    }
+
+    form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+
+    fieldset {
+        margin-left: auto;
+        margin-right: auto;
+        border: 0;
+    }
+
+    select {
+        height: 50px;
+
+        width: 100%;
+
+        border: 0;
+        background-color: #bababa;
+        color: white;
+
+        font-size: large;
+
+        /*-webkit-appearance: none;*/
+    }
+/* - to nie ma obecnie znaczenia, bo zmieniliśmy rodzaj menu
+    .formOption:hover {
+        background-color: gray;
+    }
+
+    .formOption:checked {
+        background-color: dimgrey;
+    }
+*/
+
+
+    input[type=submit] {
+        margin: 10px;
+
+
+        background-color: grey;
+        border: none;
+        color: white;
+
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-family: "Noto Sans";
+
+        box-shadow: 1px 1px 5px grey;
+    }
+
+    input[type=submit]:hover {
+        background-color: dimgrey;
+    }
+
+
+/*}*/
+
+/* responsive part */
+@media (min-aspect-ratio: 1/1) {
+    #formBox {
+        max-width: 40%;
+    }
+}
+
+
+
+
+@media (max-aspect-ratio: 1/1) {
+    #formBox {
+
+        width: 90%;
+
+        margin-top: 50px;
+
+        /*height: 50%;*/
+    }
+
+    /*  mostly we override some defaults
+     * TODO: write it properly
+     * although probably I won't
+     */
+    #titleBox {
+        /*
+        padding-top: 10px;
+
+        margin-left: auto;
+        margin-right: auto;
+        */
+        width: 80%;
+    }
+
+    #title {
+        font-size: 70px;
+        text-align: center;
+    }
+
+
+    form {
+        width: 80%;
+    }
+
+    /*
+    fieldset {
+        margin-left: auto;
+        margin-right: auto;
+        border: 0;
+    }
+    */
+
+    select {
+
+        height: 100px;
+
+        width: 100%;
+
+        border: 0;
+        background-color: #bababa;
+        color: white;
+
+        font-size: 40px;
+
+        /*-webkit-appearance: none;*/
+    }
+
+    input[type=submit] {
+
+
+
+        /*
+        margin: 10px;
+
+
+        background-color: grey;
+        border: none;
+        color: white;
+
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        */
+        font-size: 40px;
+        font-family: "Noto Sans";
+
+        box-shadow: 1px 1px 5px grey;
+    }
+
+    input[type=submit]:hover {
+        background-color: dimgrey;
+    }
+
+
+}

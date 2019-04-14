@@ -1,0 +1,182 @@
+
+#topMenu {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+
+    background-color: dimgrey;
+
+}
+
+#backToMenu {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 20%;
+    height: 10%;
+}
+
+.backToMenuIcon {
+    position: fixed;
+    height: 8%;
+    top: 1%;
+    left: 1%;
+}
+
+#toInfoPage {
+    position: fixed;
+    top: 0%;
+    left: 80%;
+    width: 20%;
+    height: 10%;
+}
+
+.infoPageIcon {
+    position: fixed;
+    height: 8%;
+    top: 1%;
+    right: 2%;
+}
+
+
+#topLogo {
+    position: fixed;
+    top: 0%;
+    left: 20%;
+    width: 60%;
+    hright: 10%;
+
+
+}
+
+.topLogoText {
+
+    margin-top: 5%;
+
+    color: white;
+
+    text-align: center;
+
+    font-size: 80px;
+    font-family: 'Basic', sans-serif;
+}
+
+/*========================================================================================*/
+
+#mainBox {
+    position: fixed;
+    top: 10%;
+    bottom: 0%;
+
+}
+
+#topBox {
+    position: fixed;
+    top: 10%;
+    left: 0%;
+    height: 32%;
+    width: 100%;
+
+}
+
+#bottomBox {
+    position: fixed;
+    top: 55%;
+    left: 0%;
+    height: 45%;
+    width: 100%;
+}
+
+#displayedMeaning {
+    position: fixed;
+
+    top: 10%;
+    height: 32%;
+
+    left: 0;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    /*border: none;*/
+}
+
+/*===========================================================================================*/
+
+
+#displayedWordBox {
+    position: fixed;
+    top: 42%;
+    height: 10%;
+    width: 100%;
+
+    background-color: darkred;
+
+}
+
+
+#displayedWord {
+
+    text-align: center;
+
+    color: white;
+    font-size: 60px;
+    font-family: "Noto Sans";
+}
+
+
+
+
+
+/*
+#buttonBox {
+    position: fixed;
+    top: 52
+}
+*/
+
+
+#checkMeaningButton {
+    position: fixed;
+    top:52%;
+    height: 16%;
+    width: 100%;
+
+}
+
+#iKnowButton {
+    position: fixed;
+    top:68%;
+    height: 16%;
+    width: 100%;
+
+    /* we override color */
+    background-color: dimgrey;
+
+}
+
+#dunnoButton {
+    position: fixed;
+    top:84%;
+    height: 16%;
+    width: 100%;
+
+}
+
+.button {
+    background-color: grey;
+    border: none;
+    color: white;
+    /*
+    text-align: center;
+    text-decoration: none;
+    */
+
+    font-size: 50px;
+    font-family: "Noto Sans";
+
+
+}
